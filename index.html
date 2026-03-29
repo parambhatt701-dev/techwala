@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechWala | Ahmedabad Tech Guide</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', sans-serif; 
+            background-color: #0f172a; 
+            color: white; 
+            margin: 0; 
+            padding: 20px; 
+            text-align: center; 
+        }
+
+        .logo { 
+            color: #38bdf8; 
+            font-size: 3.5rem; 
+            font-weight: bold; 
+            margin-top: 30px;
+        }
+
+        /* This is the simple grid from the start */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 40px auto;
+        }
+
+        .category-title {
+            color: #38bdf8;
+            text-align: left;
+            max-width: 1200px;
+            margin: 50px auto 10px auto;
+            border-bottom: 2px solid #38bdf8;
+            padding-bottom: 5px;
+            font-size: 1.8rem;
+        }
+
+        .card { 
+            background: #1e293b; 
+            border: 1px solid #38bdf8; 
+            padding: 20px; 
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #ffffff;
+        }
+
+        .price {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #38bdf8;
+            margin: 15px 0;
+        }
+
+        .btn { 
+            display: block; 
+            background: #38bdf8; 
+            color: #0f172a; 
+            padding: 12px; 
+            text-decoration: none; 
+            border-radius: 8px; 
+            font-weight: bold; 
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="logo">TECHWALA</h1>
+    <p style="color: #94a3b8;">Expert Tech Affiliate Reviews</p>
+
+    <h2 class="category-title">🖥️ Gaming Monitors</h2>
+    <div class="product-grid">
+        <div class="card"><h3>Samsung G5</h3><p>27" Curved 144Hz</p><div class="price">₹22,499</div><a href="#" class="btn">View Deal</a></div>
+        <div class="card"><h3>LG Ultragear</h3><p>24" IPS 144Hz</p><div class="price">₹14,500</div><a href="#" class="btn">View Deal</a></div>
+        <div class="card"><h3>Acer Nitro</h3><p>27" QHD 170Hz</p><div class="price">₹19,999</div><a href="#" class="btn">View Deal</a></div>
+        <div class="card"><h3>BenQ MOBIUZ</h3><p>24" FHD 165Hz</p><div class="price">₹18,200</div><a href="#" class="btn">View Deal</a></div>
+        <div class="card"><h3>Gigabyte G24F</h3><p>24" SS IPS</p><div class="price">₹12,499</div><a href="#" class="btn">View Deal</a></div>
+        <div class="card"><h3>MSI Optix</h3><p>24" Curved</p><div class="price">₹13,800</div><a href="#" class="btn">View Deal</a></div>
+    </div>
+
+    <h2 class="category-title">🧺 Washing Machines</h2>
+    <div class="product-grid">
+        <div class="card"><h3>Samsung 7kg</h3><p>Front Load Inverter</p><div class="price">₹29,499</div><a href="#" class="btn">View Deal</a></div>
+        <div class="card"><h3>LG 8kg</h3><p>AI DD Front Load</p><div class="price">₹34,000</div><a href="#" class="btn">View Deal</a></div>
+        <div class="card"><h3>Bosch 8kg</h3><p>Series 6 Front Load</p><div class="price">₹36,500</div><a href="#" class="btn">View Deal</a></div>
+        <div class="card"><h3>IFB 8kg</h3><p>Senator Neo</p><div class="price">₹31,000</div><a href="#" class="btn">View Deal</a></div>
+        <div class="card"><h3>Whirlpool 9.5kg</h3><p>Top Load Pro</p><div class="price">₹28,990</div><a href="#" class="btn">View Deal</a></div>
+        <div class="card"><h3>Panasonic 7kg</h3><p>Top Load Heater</p><div class="price">₹21,500</div><a href="#" class="btn">View Deal</a></div>
+    </div>
+
+    <h2 class="category-title">🖨️ Printers</h2>
+    <div class="product-grid">
+        <div class="card"><h3>HP Laserjet</h3><p>M1005 B&W</p><div class="price">₹16,999</div><a href="#" class="btn">View Deal</a></div>
+        <div class="card"><h3>Epson L3250</h3><p>Wi-Fi Ink Tank</p><div class="price">₹14,200</div><a href="#" class="btn">View Deal</a></div>
+        <div class="card"><h3>Canon G3010</h3><p>Color Ink Tank</p><div class="price">₹13,500</div><a href="#" class="btn">View Deal</a></div>
+        <div class="card"><h3>Brother L2520D</h3><p>Duplex Laser</p><div class="price">₹15,800</div><a href="#" class="btn">View Deal</a></div>
+        <div class="card"><h3>HP Tank 515</h3><p>Smart Wireless</p><div class="price">₹15,100</div><a href="#" class="btn">View Deal</a></div>
+        <div class="card"><h3>Canon E4570</h3><p>Budget All-in-One</p><div class="price">₹8,499</div><a href="#" class="btn">View Deal</a></div>
+    </div>
+
+</body>
+</html>
